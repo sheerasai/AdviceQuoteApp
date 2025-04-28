@@ -1,0 +1,29 @@
+.quote-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: #FFF;
+}
+
+body{
+  background-color: rgb(12, 8, 67);
+  font-family: sans-serif;
+}
+.btn-quote{
+  background-color: #FFF;
+  padding: 16px;
+  text-align: center;
+  color:rgb(12, 8, 67);
+  font-size: 18px;
+  border-radius: 30px;
+  width: 200px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-quote:hover{
+  background-color: transparent;
+  color: #FFF;
+  border: 1px solid #FFF;
+}
