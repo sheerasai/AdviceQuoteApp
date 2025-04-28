@@ -4,7 +4,7 @@ import './App.css'
 import Quotes from './Quotes'
 import axios from 'axios';
 function App() {
-const [Quote,SetQuote] = useState(null);
+const [Quote,SetQuote] = useState("No Quotes yet");
 
 const getQuote = () =>{
 axios.get("https://api.adviceslip.com/advice").then(response=>{
